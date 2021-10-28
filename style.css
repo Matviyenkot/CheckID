@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 300px;
+    margin: 40px auto 0 auto;
+    border: 1px solid rgba(0,0,0, .2);
+    padding: 20px;
+}
+
+.idWrapper {
+    width: 300px;
+    margin: 40px auto 0 auto;
+    border: 1px solid rgba(0,0,0, .2);
+    padding: 20px;
+    display:flex;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#addID {
+    margin-top: 20px;
+}
+
+#clear {
+    background-color: red;
+}
+
+[type=checkbox] {
+    margin-top: 20px;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.hiden {
+    display: none;
+}
+
+.notHiden {
+    display: flex;
+    justify-content: center;
+}
